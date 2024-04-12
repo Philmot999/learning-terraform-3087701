@@ -29,6 +29,7 @@ module "blog_vpc" {
     Terraform = "true"
     Environment = "dev"
   }
+}
 
 data "aws_vpc" "default" {
   default = true
